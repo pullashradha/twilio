@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D51885AD-F86B-40DD-BDF8-517E1F75769B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{62455CF7-0031-47EB-A4EF-696667A6AEBF}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Twilio_Messaging", "src\Twilio_Messaging\Twilio_Messaging.xproj", "{F33C429A-8AB6-46D8-B7D6-C013D41485A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F33C429A-8AB6-46D8-B7D6-C013D41485A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33C429A-8AB6-46D8-B7D6-C013D41485A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33C429A-8AB6-46D8-B7D6-C013D41485A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33C429A-8AB6-46D8-B7D6-C013D41485A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F33C429A-8AB6-46D8-B7D6-C013D41485A8} = {D51885AD-F86B-40DD-BDF8-517E1F75769B}
+	EndGlobalSection
+EndGlobal
