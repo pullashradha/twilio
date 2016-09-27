@@ -1,9 +1,10 @@
-﻿{
+{
   "buildOptions": {
     "emitEntryPoint": true,
     "preserveCompilationContext": true
   },
   "dependencies": {
+    
     "Microsoft.AspNetCore.Authorization": "1.0.0",
     "Microsoft.AspNetCore.Diagnostics": "1.0.0",
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.0.0",
@@ -25,6 +26,7 @@
       "type": "platform"
     },
     "Newtonsoft.Json": "9.0.1",
+    "Npm.js": "2.13.1",
     //Add dotnet-core in package manager
     "RestSharp.NetCore": "105.2.3" },
   "frameworks": {

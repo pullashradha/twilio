@@ -25,12 +25,10 @@ namespace Twilio_Messaging
                 .AddJsonFile("appsettings.json");
             Configuration = builder.Build();
         }
+        
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
-
-           
-            
+            services.AddMvc();    
         }
         public void Configure(IApplicationBuilder app)
         {
